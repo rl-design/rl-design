@@ -1,0 +1,860 @@
+
+body{
+  background-color: white;
+  overflow-y: scroll;
+  margin: 0;
+}
+
+a{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a.navbar-brand{
+  letter-spacing: 7px;
+}
+
+.transition-fade{
+  opacity: 1;
+  transition: 500ms;
+}
+
+html.is-animating .transition-fade{
+  opacity: 1;
+
+  transform: translateY(100%);
+}
+
+html.is-leaving .transition-fade{
+  opacity: 0;
+  transform: translateY(0);
+}
+
+html.is-rendering .transition-fade{
+  position: fixed;
+}
+
+.swup-progress-bar {
+  height: 5px;
+  background-color: black;
+}
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.scrolled.fade-in-bottom {
+  animation: fade-in-bottom 1s ease-in-out both;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: 7px;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  color: black;
+  font-size: 1.1rem;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-weight: 300;
+  margin: 0 auto;
+  color: black;
+  font-size: 1rem;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+h3{
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-weight: 300;
+  margin: 0 auto;
+  color: black;
+  font-size: 2rem;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+img{
+  display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+video{
+  max-width: 100%;
+}
+
+.bg-light{
+  background-color: rgba(0, 0, 0, 0); !important;
+  --bs-bg-opacity: 0;
+}
+
+#navbarNav{
+  justify-content: flex-end;
+}
+
+.navbar-brand{
+  font-size: 1rem;
+}
+
+.navbar.navbar-expand-lg.navbar-light{
+  mix-blend-mode: exclusion;
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+.navbar-container-fluid{
+  max-width: 1288px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+
+.navbar-light .navbar-brand{
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar.navbar-expand-lg.navbar-light{
+    z-index: inherit;
+    left: inherit;
+    right: inherit;
+    position: inherit;
+  }
+}
+
+/* .js-scroll {
+  opacity: 0;
+  transition: opacity 250ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.scrolled.fade-in-bottom {
+  animation: fade-in-bottom .5s ease-in-out both;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
+
+.front_artwork {
+  text-align:center;
+  display: block;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+}
+
+.front_artwork_bottom {
+  text-align:center;
+  display: block;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+}
+
+.front_artwork_text_bottom{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: auto;
+}
+
+.text {
+  margin: 0 auto;
+  max-width: 654px;
+  height: 100%;
+  align-content: center;
+}
+
+.text .grid{
+  display: grid;
+  grid-gap: 80px;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-areas: "title skills software"
+                       "synopsis synopsis synopsis"
+                        ;
+}
+
+.header{
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 700px) {
+.text .grid {
+  grid-template-columns: repeat(1, 4fr);
+  grid-template-areas: "title"
+                       "skills"
+                       "software"
+                       "synopsis"
+                        ;
+}
+}
+
+
+.title{
+  grid-area: title;
+  width: 100%;
+  text-align: left;
+}
+
+.title h2{
+  padding-bottom: 15px;
+}
+
+.skills{
+  grid-area: skills;
+  width: 100%;
+  text-align: left;
+}
+
+.skills h2{
+  padding-bottom: 15px;
+}
+
+.software{
+  grid-area: software;
+  width: 100%;
+  text-align: left;
+}
+
+.software h2{
+  padding-bottom: 15px;
+}
+
+.synopsis{
+  grid-area: synopsis;
+  width: 100%;
+  text-align: left;
+}
+
+.synopsis h2{
+  padding-bottom: 15px;
+}
+
+
+.text-portfolio .grid-portfolio {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 80px;
+  grid-template-columns: repeat(4, 3fr);
+  grid-template-areas:  "company company company company"
+                        "location duration duration duration"
+                        "role synopsis synopsis synopsis"
+                        ;
+}
+
+.text-portfolio {
+  margin: 0 auto;
+  max-width: 1028px;
+  height: 100%;
+  align-content: center;
+  padding-bottom: 100px;
+}
+
+.company{
+  grid-area: company;
+  width: 100%;
+  text-align: left;
+}
+
+.location{
+  grid-area: location;
+  width: 100%;
+  text-align: left;
+}
+
+.duration{
+  grid-area: duration;
+  width: 100%;
+  text-align: left;
+}
+
+.role{
+  grid-area: role;
+  width: 100%;
+  text-align: left;
+}
+
+.synopsis{
+  grid-area: synopsis;
+  width: 100%;
+  text-align: left;
+}
+
+.grid-artwork-2{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: auto;
+  grid-gap: 30px;
+  padding: 30px;
+
+}
+
+.grid-artwork-3{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 30px;
+  padding: 30px;
+}
+
+.grid-artwork-4{
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 30px;
+  padding: 30px;
+}
+
+.position-right{
+  position: relative;
+  right: 15%;
+}
+
+.text-overlay-right {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 700px) {
+  .text-overlay-right {
+    display: none;
+}
+}
+
+.text-mobile-only{
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .text-mobile-only{
+    display: initial;
+  }
+}
+.SFD_logo_tall {
+  display: block;
+  background-repeat: no-repeat;
+  width: 491px;
+  height: 300px;
+  background: url(../images/asukabaka_tall.png);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem ;
+  opacity: 1;
+  transition: ease .5s;
+}
+
+@media screen and (max-width: 600px) {
+  .SFD_logo_tall {
+  width: 245px;
+  height: 150px;
+  background-size: 245px 150px;
+}
+}
+
+.social-links {
+  background: white;
+}
+
+.social-links a {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.social-links i.fa {
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .social-links {
+    padding: 2rem 0;
+  }
+  .social-links i.fa {
+    font-size: 2rem;
+    display: block;
+    padding-right: 0;
+    padding-bottom: 0.5rem;
+  }
+  .social-links a {
+    font-weight: bold;
+  }
+  .social-links .columns {
+    margin: 1rem 0;
+  }
+  .social-links .mobile-stack {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.social-links a{
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.social-links a:hover{
+  opacity: .6;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: black;
+}
+
+
+.frontpage_artwork_text_top{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  width:100%;
+  height: inherit;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  background: linear-gradient(transparent, transparent, transparent,black);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  opacity: 0;
+  transition: ease .5s;
+}
+
+.frontpage_artwork_text_top:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .frontpage_artwork_text_top:hover {
+    opacity: 0;
+  }
+}
+
+.hero_padding{
+  padding-top: 40px;
+}
+
+.hero_padding_bottom{
+  padding-bottom: 40px;
+}
+
+.hero-section_wakefromdeath {
+
+  background: url("../images/wakefromdeath_banner.jpg") 55% no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+}
+
+@media screen and (max-width: 1400px) {
+.hero-section_wakefromdeath {
+  background-position: 40%;
+  height: 300px;
+}
+}
+
+.hero-section_foxhound {
+
+  background: url("../images/foxhound/raymond_lam_foxhound_banner.jpg") 55% no-repeat;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+}
+
+.hero-section_foxhound2 {
+
+  background: url("../images/foxhound/raymond_lam_foxhound_banner.jpg") 55% no-repeat;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.hero-section_foxhound2:hover {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 1400px) {
+.hero-section_foxhound {
+  background-position: 40%;
+  height: 750px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.hero-section_foxhound {
+  background-position: 50%;
+  height: 500px;
+}
+}
+
+.video_banner {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: ease 1s;
+  position: relative;
+}
+
+
+.hero-section_removebeforeflight {
+
+  background: url("../images/removebeforeflight/removebeforeflight_banner.jpg") 55% no-repeat;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+}
+
+@media screen and (max-width: 1400px) {
+.hero-section_removebeforeflight {
+  background-position: 50%;
+  height: 750px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.hero-section_removebeforeflight {
+  background-position: 50%;
+  height: 600px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.hero-section_removebeforeflight {
+  background-position: 50%;
+  height: 400px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.hero-section_removebeforeflight {
+  background-position: 50%;
+  height: 250px;
+}
+}
+
+.hero-section_bydesign {
+
+  background: url("../images/bydesign_banner.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+}
+
+@media screen and (max-width: 1400px) {
+.hero-section_bydesign {
+  background-position: 50%;
+  height: 750px;
+}
+}
+
+
+@media screen and (max-width: 1000px) {
+.hero-section_bydesign {
+  background-position: 50%;
+  height: 600px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.hero-section_bydesign {
+  background-position: 50%;
+  height: 400px;
+}
+}
+
+.hero-section_lifeanddeath {
+
+  background: url("../images/extracurricular_banner.jpg") 55% no-repeat;
+  background-size: cover;
+  height: 950px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+}
+
+@media screen and (max-width: 1400px) {
+.hero-section_lifeanddeath {
+  background-position: 50%;
+  height: 750px;
+}
+}
+
+.hero-section_dragon {
+
+  background: url("../images/dragon_banner.jpg") 55% no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+}
+
+@media screen and (max-width: 1400px) {
+.hero-section_dragon {
+  background-position: 50%;
+  height: 500px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.hero-section_dragon {
+  background-position: 50%;
+  height: 300px;
+}
+}
+
+.hero-section_dragon_rain {
+
+  background: url("../images/dragon_banner_rain.jpg") 55% no-repeat;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.hero-section_dragon_rain:hover {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 1400px) {
+.hero-section_dragon_rain {
+  background-position: 40%;
+  height: 750px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.hero-section_dragon_rain {
+  background-position: 50%;
+  height: 500px;
+}
+}
+
+.hero-section_protest {
+
+  background: url("../images/protest_banner.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+}
+
+@media screen and (max-width: 1400px) {
+.hero-section_protest {
+  background-position: 50%;
+  height: 750px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.hero-section_protest {
+  background-position: 50%;
+  height: 600px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.hero-section_protest {
+  background-position: 50%;
+  height: 400px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.hero-section_protest {
+  background-position: 50%;
+  height: 250px;
+}
+}
+
+
+.hero-section_misa {
+
+  background: linear-gradient(transparent, black), url("../images/jdn_banner.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: ease 1s;
+}
+
+@media screen and (max-width: 1000px) {
+.hero-section_misa {
+  height: 300px;
+}
+}
