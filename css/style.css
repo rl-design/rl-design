@@ -171,32 +171,6 @@ video{
   }
 }
 
-/* .js-scroll {
-  opacity: 0;
-  transition: opacity 250ms;
-}
-
-.js-scroll.scrolled {
-  opacity: 1;
-}
-
-.scrolled.fade-in-bottom {
-  animation: fade-in-bottom .5s ease-in-out both;
-}
-
-@keyframes fade-in-bottom {
-  0% {
-    -webkit-transform: translateY(50px);
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
-
 .front_artwork {
   text-align:center;
   display: block;
@@ -262,7 +236,6 @@ video{
                         ;
 }
 }
-
 
 .title{
   grid-area: title;
@@ -478,16 +451,12 @@ video{
   background-color: black;
 }
 
-
 .frontpage_artwork_text_top{
-  font-family: 'Lato', sans-serif;
+  color: white;
   text-align: center;
   width:100%;
   height: inherit;
-  font-size: 2em;
-  color: white;
   text-align: center;
-  background: linear-gradient(transparent, transparent, transparent,black);
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -513,11 +482,10 @@ video{
   padding-bottom: 40px;
 }
 
-.hero-section_wakefromdeath {
+.hero-section {
 
-  background: url("../images/wakefromdeath_banner.jpg") 55% no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 500px;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -532,65 +500,14 @@ video{
 }
 
 @media screen and (max-width: 1400px) {
-.hero-section_wakefromdeath {
-  background-position: 40%;
-  height: 300px;
-}
-}
-
-.hero-section_foxhound {
-
-  background: url("../images/foxhound/raymond_lam_foxhound_banner.jpg") 55% no-repeat;
-  background-size: cover;
-  height: 900px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-}
-
-.hero-section_foxhound2 {
-
-  background: url("../images/foxhound/raymond_lam_foxhound_banner.jpg") 55% no-repeat;
-  background-size: cover;
-  height: 900px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.hero-section_foxhound2:hover {
-  background-color:rgba(0, 0, 0, 0.5);
-}
-
-
-@media screen and (max-width: 1400px) {
-.hero-section_foxhound {
+.hero-section {
   background-position: 40%;
   height: 750px;
 }
 }
 
 @media screen and (max-width: 800px) {
-.hero-section_foxhound {
+.hero-section {
   background-position: 50%;
   height: 500px;
 }
@@ -604,257 +521,27 @@ video{
   position: relative;
 }
 
+.hero-section_foxhound {
+
+  background: url("../images/foxhound/raymond_lam_foxhound_banner.jpg") 55% no-repeat;
+}
 
 .hero-section_removebeforeflight {
-
   background: url("../images/removebeforeflight/removebeforeflight_banner.jpg") 55% no-repeat;
-  background-size: cover;
-  height: 900px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-}
-
-@media screen and (max-width: 1400px) {
-.hero-section_removebeforeflight {
-  background-position: 50%;
-  height: 750px;
-}
-}
-
-@media screen and (max-width: 1000px) {
-.hero-section_removebeforeflight {
-  background-position: 50%;
-  height: 600px;
-}
-}
-
-@media screen and (max-width: 800px) {
-.hero-section_removebeforeflight {
-  background-position: 50%;
-  height: 400px;
-}
-}
-
-@media screen and (max-width: 600px) {
-.hero-section_removebeforeflight {
-  background-position: 50%;
-  height: 250px;
-}
 }
 
 .hero-section_bydesign {
-
   background: url("../images/bydesign_banner.jpg") 50% no-repeat;
-  background-size: cover;
-  height: 900px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-}
-
-@media screen and (max-width: 1400px) {
-.hero-section_bydesign {
-  background-position: 50%;
-  height: 750px;
-}
-}
-
-
-@media screen and (max-width: 1000px) {
-.hero-section_bydesign {
-  background-position: 50%;
-  height: 600px;
-}
-}
-
-@media screen and (max-width: 800px) {
-.hero-section_bydesign {
-  background-position: 50%;
-  height: 400px;
-}
-}
-
-.hero-section_lifeanddeath {
-
-  background: url("../images/extracurricular_banner.jpg") 55% no-repeat;
-  background-size: cover;
-  height: 950px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-}
-
-@media screen and (max-width: 1400px) {
-.hero-section_lifeanddeath {
-  background-position: 50%;
-  height: 750px;
-}
 }
 
 .hero-section_dragon {
-
   background: url("../images/dragon_banner.jpg") 55% no-repeat;
-  background-size: cover;
-  height: 600px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-}
-
-@media screen and (max-width: 1400px) {
-.hero-section_dragon {
-  background-position: 50%;
-  height: 500px;
-}
-}
-
-@media screen and (max-width: 800px) {
-.hero-section_dragon {
-  background-position: 50%;
-  height: 300px;
-}
 }
 
 .hero-section_dragon_rain {
-
   background: url("../images/dragon_banner_rain.jpg") 55% no-repeat;
-  background-size: cover;
-  height: 900px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.hero-section_dragon_rain:hover {
-  background-color:rgba(0, 0, 0, 0.5);
-}
-
-
-@media screen and (max-width: 1400px) {
-.hero-section_dragon_rain {
-  background-position: 40%;
-  height: 750px;
-}
-}
-
-@media screen and (max-width: 800px) {
-.hero-section_dragon_rain {
-  background-position: 50%;
-  height: 500px;
-}
 }
 
 .hero-section_protest {
-
   background: url("../images/protest_banner.jpg") 50% no-repeat;
-  background-size: cover;
-  height: 1000px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-}
-
-@media screen and (max-width: 1400px) {
-.hero-section_protest {
-  background-position: 50%;
-  height: 750px;
-}
-}
-
-@media screen and (max-width: 1000px) {
-.hero-section_protest {
-  background-position: 50%;
-  height: 600px;
-}
-}
-
-@media screen and (max-width: 800px) {
-.hero-section_protest {
-  background-position: 50%;
-  height: 400px;
-}
-}
-
-@media screen and (max-width: 600px) {
-.hero-section_protest {
-  background-position: 50%;
-  height: 250px;
-}
-}
-
-
-.hero-section_misa {
-
-  background: linear-gradient(transparent, black), url("../images/jdn_banner.jpg") 50% no-repeat;
-  background-size: cover;
-  height: 600px;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  transition: ease 1s;
-}
-
-@media screen and (max-width: 1000px) {
-.hero-section_misa {
-  height: 300px;
-}
 }
