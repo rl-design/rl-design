@@ -3,6 +3,7 @@ body{
   background-color: white;
   overflow-y: scroll;
   margin: 0;
+  width: 100%;
 }
 
 a{
@@ -20,6 +21,7 @@ a.navbar-brand{
 }
 
 .transition-fade{
+  width: 100%;
   opacity: 1;
   transition: 500ms;
 }
@@ -485,7 +487,7 @@ video{
 .hero-section {
 
   background-size: cover;
-  height: 500px;
+  height: 900px;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
