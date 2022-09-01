@@ -95,10 +95,11 @@ h1{
 h2{
   font-family: 'Lato', sans-serif;
   text-align: left;
-  font-weight: 300;
+  font-weight: 600;
   margin: 0 auto;
   color: black;
-  font-size: 1rem;
+  font-size: 1.6rem;
+  padding-bottom: 40px;
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
@@ -164,6 +165,24 @@ video{
   color: white;
 }
 
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: white;
+}
+
+.navbar-brand:hover{
+  opacity: .5;
+  transition: opacity 500ms;
+}
+
+.nav-link:hover{
+  opacity: .5;
+  transition: opacity 500ms;
+}
+
 @media screen and (max-width: 700px) {
   .navbar.navbar-expand-lg.navbar-light{
     z-index: inherit;
@@ -213,6 +232,7 @@ video{
   max-width: 654px;
   height: 100%;
   align-content: center;
+  padding: 40px;
 }
 
 .text .grid{
@@ -453,11 +473,15 @@ video{
   background-color: black;
 }
 
+.carousel-indicators, .carousel-control-prev, .carousel-control-next{
+  mix-blend-mode: exclusion;
+}
+
 .frontpage_artwork_text_top{
   color: white;
   text-align: center;
   width:100%;
-  height: inherit;
+  height: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -529,7 +553,10 @@ video{
 }
 
 .hero-section_removebeforeflight {
-  background: url("../images/removebeforeflight/removebeforeflight_banner.jpg") 55% no-repeat;
+  background: url("../images/removebeforeflight_banner.jpg") 55% no-repeat;
+  height: 100vh;
+  max-height: 588.3px;
+  background-size: contain;
 }
 
 .hero-section_bydesign {
