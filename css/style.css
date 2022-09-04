@@ -561,7 +561,7 @@ video{
   background: url("../images/removebeforeflight_banner.jpg") 55% no-repeat;
   height: 100vh;
   max-height: 588.3px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-section_bydesign {
