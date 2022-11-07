@@ -1,0 +1,40 @@
+00:00:00:06 - 00:00:22:15
+Speaker 1
+Let's get started by understanding the Soft Selection Tool. I'm going to make a plane and I'm going to zoom in. And right now, the plane is in object mode. I'm going to change the plane from object mode to face from outside of just a face mode.
+
+00:00:24:17 - 00:00:55:18
+Speaker 1
+What you should see are a bunch of blue lines, a blue, red and I'm going to click on one individual face and I'm going to extrude this individual face. What you see here is what happens when you're extruding just an individual face. The face is connected to a extrude alongside the face you have selected and are moving up and down.
+
+00:00:57:14 - 00:01:41:01
+Speaker 1
+The difference with the self-selection tool, which I'm going to activate by using the keystroke beep on my keyboard, is it selects all the faces alongside the face. I have initially blocked it and I'm going to demonstrate that by extruding. You see, the entire face itself is moving up and down and it's moving much more gradually. You're not getting a very severe spike up like it is right now with just regular selection mode.
+
+00:01:42:06 - 00:02:49:21
+Speaker 1
+You're getting a much more gradual edit of the polygon faces. And so if you're ten of understanding what's going on here, you have something called you have different color coded areas. The areas that are in yellow, they're being edited. They're being changed at a much higher rate. And the areas in red and Autodesk policies, the fall off zone, the areas that are in yellow have a much stronger fall off zone, which means more the edit or the change is much stronger around the areas in yellow and gradually it turns into red, which means a falloff so drops off.
+
+00:02:50:15 - 00:03:16:20
+Speaker 1
+That changes around here are much less gradual. I want to demonstrate that by changing the fall off zone. And so how you change the fall off zone is by holding down the and holding down your middle mouse button. And if you don't have a mouse with a middle mouse button, again, this was a requirement for our class. And so you're going to need to get that.
+
+00:03:17:09 - 00:03:54:03
+Speaker 1
+And so I'm going to demonstrate that. So if you notice, I have to move my mouse cursor off the polygon onto a gray area. This is how it works best. And you're seeing the circle on my screen slowly expand and slowly contrast as I move my mouse from left to right. So I'm moving my mouse right to expand the fall off so that I'm moving my mouse left to counteract the fall off.
+
+00:03:54:23 - 00:04:39:17
+Speaker 1
+So with a very small fall off zone, much smaller than what you saw previously. I'm going to edit the faces now. All the faces that are yellow get edited to a very high degree. All the faces that are surrounded by red get edited as well. But all the faces that are blocked do not get at all. So this is the power of the self-selection tool whereby you're allowed to make changes, but at a much more gradual and softer and natural way, much like sculpting in real life.
+
+00:04:41:11 - 00:05:28:19
+Speaker 1
+And so, again, for both Windows and Mac, you're going to want to press the button to activate the soft selection tool or soft selection mode. Right now it's off. So when I try moving, it's just moving that one face. Now I've selected soft select mode again, that's moving all of the faces that are colored. So the keyboard button B is the keyboard button, the hotkey you're going to be using to activate soft select tool.
+
+00:05:28:19 - 00:05:53:05
+Speaker 1
+And again, in order to change the falloff zone, I'm going to hold down the and then you're going to hold to the middle mouse button. Right now I'm holding it down. So as I move my mouse to the right, I'm going to be expanding the fall off so that as I'm moving my mouse back to the left, I'm going to be contracting the fall off.
+
+00:05:53:05 - 00:06:04:06
+Speaker 1
+So and I hope that helps you guys understand the soft selection tool.
+

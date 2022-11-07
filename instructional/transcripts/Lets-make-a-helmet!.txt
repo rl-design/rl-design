@@ -1,0 +1,172 @@
+00:00:00:25 - 00:00:29:26
+Speaker 1
+Hey, guys. So in this video, we're going to be making our helmet. In the previous two videos. I went over the use of the soft select mode and I went over the different views we have available to us while modeling in Maya. So to get started, I'm going to make a sphere. Once the sphere has been made, I'm going to go take a look at the different camera available to us.
+
+00:00:29:27 - 00:00:56:54
+Speaker 1
+We have top right here. We have front right here. We have side. And I'm going to go in to face mode because what I want to do is I want to delete the bottom half of the sphere so it turns into a dome. So by selecting from the side, I have selected the entire bottom half of the sphere. Right now I still have self-select mode turned on.
+
+00:00:57:16 - 00:01:22:28
+Speaker 1
+So if I pressed the delete button right now, it's going to delete more than what I selected. I'm going to turn it off when I hit the delete button and the bottom half is gone and our sphere is now a dome. And so the next thing I'm going to do is I'm just going to select the individual faces that I want to extrude.
+
+00:01:22:28 - 00:01:54:16
+Speaker 1
+So to change the shape of my dome into a helmet. And so this is where soft select tool comes in handy. I'm going to turn on and off Select Tool by hitting the “B” button. The next thing I'm going to do is I'm going to select the faces I need and extrude them. So I can make my dome into a unique shape that looks a bit more like a helmet.
+
+00:01:54:37 - 00:02:16:51
+Speaker 1
+So the first thing I'm going to do is this looks a bit too much like a dome to me. It looks like a bowl. I don't want that. I want this top part to flatten out a bit. So I'm going to select these top faces. And you notice up here it's giving me a different perspective on the different faces I have selected.
+
+00:02:17:20 - 00:02:50:42
+Speaker 1
+And right now, I am going to go scale this down. So I want to scale this down. I'm going to push down. And it's kind of like it's kind of shrinking the faces up here. And it's given me a bit.. a bit less of a dome kind of look. But yeah, I like how this looks so far. The next thing I'm going to do is I am going to extrude by rotating.
+
+00:02:51:07 - 00:03:18:21
+Speaker 1
+So I'm going to hit the button and I'm going to open up the rotate command. Then I'm going to rotate this out. And so you can kind of notice from a different perspective views available to us. And Maya, you can kind of see this is the front, so it's tilting down. You can see there the larger plane available for us to see.
+
+00:03:19:33 - 00:03:47:06
+Speaker 1
+This is why the different views and Maya are so helpful. And so the next thing I'm going to do is I want to make my helmet kind of longer. So I'm just going to select the back part of this helmet. And then instead of extruding the rotating, I'm going to extrude video just translating. So when I grab this, handle all this back a bit.
+
+00:03:47:43 - 00:04:22:55
+Speaker 1
+Now our helmet is a bit longer. So my helmet is inspired by my interests, which is bicycles. So this helmet is going to look like a bicycle helmet. You guys can be inspired by whatever you want. So the next thing I'm going to do is I kind of want a helmet that has a bit of a drop in the back.
+
+00:04:22:57 - 00:04:40:57
+Speaker 1
+So, you know, you can protect your the back of your head. So I'm going to grab this. I've selected this. And you can still see that the self-selection mode it's on. So I'm going to pull down.
+
+00:04:43:46 - 00:05:14:33
+Speaker 1
+So one thing that's really cool and Maya you guys have already used is we're going to add more subdivisions. That's going to give us a more. It's going to give us more planes to work with. And so I've selected I'm going to go back to object mode just to make sure I grab all the faces. I'm going to select my entire object that I'm going to go up here and I'm going to click this button called Smooth to add more faces at that.
+
+00:05:15:00 - 00:05:40:40
+Speaker 1
+So now I've got way more divisions. So with the extra divisions to work with, I'm going to go back to face mode. And now I kind of want this area over here to kind of angle up. So what I'm going to do is you just saw me select that entire area again. We're going to check our cameras and yeah, the selection looks good.
+
+00:05:41:13 - 00:06:20:54
+Speaker 1
+So what I'm going to do is I'm fanning just extrude the translating. I'm just going to move it up ever so slightly. And then I am going to rotate. It looks pretty cool. So the next thing I'm going to do is I kind of want my helmet to have a nice angle sweep up. So I'm just going to select all these faces right over here.
+
+00:06:22:35 - 00:06:33:09
+Speaker 1
+And I am going to use the translate tool, and I'm just going to push it up.
+
+00:06:36:05 - 00:06:39:27
+Speaker 1
+Very cool. So far.
+
+00:06:43:13 - 00:07:10:39
+Speaker 1
+And I want this back here. I want this to look a bit softer right now. I'm not a huge fan of this sharp angle, so I am just going to rotate this outwards to give it something like that. Okay, that looks pretty cool.
+
+00:07:13:21 - 00:07:36:14
+Speaker 1
+So the next thing I'm going to do is I kind of want just this over here. I kind of want to move this. And that's not really that hasn't really given the fact that I wanted. So I'm just going to move.
+
+00:07:36:14 - 00:07:43:30
+Speaker 2
+It and I.
+
+00:07:43:30 - 00:08:05:42
+Speaker 1
+Want something a bit like a visor. So I'm just going to select this area over here. I want extrude out just a little bit. I'm liking how my helmet looks so far. And the next thing I want to do is I just want to rotate everything so it kind of faces down. I'm going to go back to object mode.
+
+00:08:05:43 - 00:08:45:25
+Speaker 1
+I've selected my whole helmet. I'm going to just tilted down like so. The next thing I'm going to do is I want to soften this lip right up here. So I'm going to do that by going back to face. I'm going to select just this and I am going to change the falloff zone of my selection. So I've selected a lot more faces, as you can see inside the also represented by the different colors.
+
+00:08:46:22 - 00:09:19:03
+Speaker 1
+And I am just going to extrude in. I'm going to shrink in a little bit, then I'm going to rotate upwards effects. At this point, I think my helmet looks pretty cool so far. What I'm going to do is I'm just going to start adding like kind of interesting details to it. The first thing I'm going to do is I'm going to go back to object mode.
+
+00:09:20:33 - 00:09:59:51
+Speaker 1
+I am going to go to edit mesh and I am going to. I am going to go to Extrude and go hover over the window icon. I'm going to right click to open extrude basis options. And I'm going to change the thickness from 0 to 0.05. I'm going to see how that works by.
+
+00:10:02:36 - 00:10:28:57
+Speaker 1
+Take a look. So far, I think it looks good. I'm going to go back to object mode. I can get a better view. I'm going to get a perspective window. I'm going to go to single perspective view. I'm going to just circle around my helmet. I'm liking how it looks so far. The next thing I'm going to do is I just kind of want to make this helmet look kind of different.
+
+00:10:29:31 - 00:10:56:42
+Speaker 1
+So I'm going to grab this. My first half of the helmet. I'm going to go to Extrude. But I'm going to load Extrude. So I'm going to hold down shift and I'm going to drag down. And right now I've got two helmets and they're all stacked on top of each other. That by itself, it kind of gives it a pretty cool looking effect.
+
+00:10:57:25 - 00:11:22:16
+Speaker 1
+But the fact isn't super obvious. So I'm going to scale down. That's to shrink it. And it's going to make it much more apparent that we've got two helmets kind of stacked on top of each other in here. Pretty good effect. And the next thing I'm going to do is I am going to change the shape of this front area over here.
+
+00:11:22:17 - 00:11:58:39
+Speaker 1
+And I'm going to make it a bit more like a visor. I'm going to do that. So I'm just going to go into back into the four panel view. We were at four when I select this bottom polygon. I am going to go to base mode. I am going to select just the faces there. And I am going to extrude the I am going to extrude.
+
+00:12:01:28 - 00:12:08:52
+Speaker 1
+I am going to just select these faces down here. But I'm going to shrink the fall off zone.
+
+00:12:11:06 - 00:12:51:39
+Speaker 1
+I'm going to make the falloff zone really small. Want to hold down the I'm going to hold down the middle mouse button. Okay. Well, we've basically got just that area over there. But I am going to try to start extruding and give it a kind of a. Yeah. I kind of like how this looks so far. I want to grab the faces down here and then I'm going to pull down and I'm going to extrude backwards again.
+
+00:12:52:37 - 00:13:20:15
+Speaker 1
+And then I'm going to rotate, kind of give this more of a squared off look. This looks really cool so far. We've got a visor to protect our eyes from the sun. We've got this little area over here so our ears can fit nice and comfortably. Then we've got a bit of a skirt down the back to protect the back of our head.
+
+00:13:21:16 - 00:13:36:24
+Speaker 1
+And so this is how our helmet looks so far. I'm going to go back to single perspective view. It's going to pan around over the object. We just going to pan around. It looks pretty cool. I like how this is looking so far.
+
+00:13:40:33 - 00:14:15:57
+Speaker 1
+Feel like, I want to move this a little bit up. Has a very futuristic look, this helmet. So the next thing I'm going to do is I'm going to add some helmet straps. And so there are a lot of ways you could do this. But first, we've got to go back to our panel and select a good view for us to work with.
+
+00:14:16:30 - 00:14:21:49
+Speaker 1
+I'm going to go back to the four View panel. I'm going to go back to the side.
+
+00:14:27:07 - 00:15:17:43
+Speaker 1
+I am going to I'm going to just make a polygon. So I've got a square that you can see from the front. It's sitting kind of it's sitting kind of in the middle of this side. Now, I want to make something like a helmet strap assembly. It's going to look like this. I'm going to shrink this and I'm going to rotate it and move this back.
+
+00:15:18:54 - 00:15:49:19
+Speaker 1
+You can see from the front view that we're going to want to move this towards the edge of the helmet. I want to push it back up. And so right now, I have one helmet that assembly. And so I want to. So I'm going to clone extrude when I move the other helmet strap assembly to the side. Right now, we have an attachment to our helmet.
+
+00:15:49:46 - 00:16:25:30
+Speaker 1
+This is where our helmet strap is going to come out of. Although I kind of feel like I want to move this a bit further back just to give our viewers some space to back and great. The next thing I'm going to do or hang on. Looking at the side view over here. I notice that some of the model is clipping through.
+
+00:16:26:16 - 00:16:57:55
+Speaker 1
+I'm just going to move this back in so we don't see that effect the same over here or so with these two helmets strap attachments on. I'm going to clone it. I'm going to move them towards the front as well. So with both of them selected, I'm going to clone Extrude on Extrude. Hold down the shift clone. Extrude.
+
+00:16:57:55 - 00:17:35:50
+Speaker 1
+Back up. Okay. So now we've got two different points on each side or a helmet strap to come out. And so now let's just rotate. I'm going to go back to the perspective here. I want to take a look around all of it. Just going to see how everything looks and looks pretty cool so far. Next thing I'm going to do, I'm going to add the helmet straps.
+
+00:17:40:04 - 00:18:11:04
+Speaker 1
+I'm just going to make a pretty simple looking one. I'm just making another you making it really thin and then making it really thin on this side while really strap on and go back to that for an all or if you mode and I am going to rotate, I'm looking on this perspective, I need to move my strap.
+
+00:18:11:34 - 00:18:24:51
+Speaker 1
+They actually contact attachment points like this backed up by this back in. It's good so far.
+
+00:18:27:31 - 00:18:58:09
+Speaker 1
+And then the next thing I'm going to do is I wanted to placate the strap up close extrude wide out another strap. I'm going to hit the rotate button or a do a minor adjustments over here and perfect. We've got something that kind of looks like a helmet. Chair Now the next thing we're going to do is we're going to want the strap on the other side as well.
+
+00:18:58:12 - 00:19:04:39
+Speaker 1
+So I'm going to select both. I'm going to clone extrude this back out.
+
+00:19:07:13 - 00:19:45:03
+Speaker 1
+This looks a lot less like a bicycle helmet, maybe a mountain climbing helmet or a construction helmet. But still, I think it looks pretty cool. Yeah. So again, the goal of this exercise was to get you guys familiar with the elect mode and how we can use it to kind of make really weird looking shapes. And hopefully you guys made some form of headwear that is pretty fun and inspired by your personal interests.
+
+00:19:45:05 - 00:19:47:51
+Speaker 1
+And I'm looking forward to seeing everybody's work.
+

@@ -92,6 +92,7 @@ h1{
   font-weight: 400;
   color: black;
   font-size: 1.1rem;
+  margin: 0;
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
@@ -548,9 +549,6 @@ video{
 } */
 
 .video_banner {
-  height: 100%;
-  width: 100%;
-  max-height: 588.3px;
   object-fit: cover;
   transition: ease 1s;
   position: relative;
@@ -563,8 +561,7 @@ video{
 
 .hero-section_removebeforeflight {
   background: url("../images/removebeforeflight_banner.jpg") 55% no-repeat;
-  height: 100vh;
-  max-height: 60vh;
+  height: 50vh;
   background-size: cover;
 }
 
@@ -583,4 +580,6 @@ video{
 
 .hero-section_protest {
   background: url("../images/protest_banner.jpg") 50% no-repeat;
+  height: 50vh;
+  background-size: cover;
 }
