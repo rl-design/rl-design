@@ -2,7 +2,7 @@
 
 body{
 	width: 100%;
-	max-width: 1080px;
+	max-width: 1280px;
 	margin: auto;
 }
 
@@ -40,7 +40,7 @@ img{
 }
 
 video{
-	max-width: 1080px;
+	max-width: 1280px;
 }
 
 .header, .content, .text{
